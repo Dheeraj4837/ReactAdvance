@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #e44545;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    justify-content: space-around;
+    width: 350px;
+}
+
+.header ul li{
+    padding: 10px;
+    cursor: pointer;
+}
+.SubNavbar{
+    background-color: rgb(150, 206, 30);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.SubNavbar p{
+    margin: 10px;
+
+}
+.college .link{
+    text-decoration: none;
+    background-color: orchid;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
