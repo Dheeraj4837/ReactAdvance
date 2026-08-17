@@ -93,8 +93,9 @@ function App() {
       <Routes>
         <Route element={<NavBar />}>
 
-        <Route path="/users" element={<UserList />} />
-        <Route  path="/users/:id" element={<UserDetails />} />
+        <Route path="/users/list?" element={<UserList />} />
+
+        <Route  path="/users/:id/:name?" element={<UserDetails />} />
 
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
